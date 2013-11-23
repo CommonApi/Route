@@ -1,0 +1,17 @@
+{
+    "name": "api/route",
+    "description": "Common API for Route",
+    "keywords": ["api", "CommonApi", "route"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmyStephen",
+            "homepage": "http://Molajo.org/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Api\\Route\\": ""
+        }
+    }
+}
