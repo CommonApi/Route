@@ -1,17 +1,24 @@
 {
-    "name": "api/route",
-    "description": "Common API for Route",
+    "name": "commonapi/route",
+    "description": "Common Route Api Interface",
     "keywords": ["api", "CommonApi", "route"],
+    "homepage": "https://github.com/CommonApi/Route",
+    "type": "api",
     "license": "MIT",
     "authors": [
         {
             "name": "AmyStephen",
-            "homepage": "http://Molajo.org/"
+            "email": "AmyStephen@gmail.com",
+            "homepage": "http://Molajo.org"
         }
     ],
+    "require": {
+        "php": ">=5.3.10",
+        "commonapi/exception": ">=0.1"
+    },
     "autoload": {
         "psr-0": {
-            "Api\\Route\\": ""
+            "CommonApi\\Route\\": ""
         }
     }
 }
