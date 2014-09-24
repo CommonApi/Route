@@ -22,7 +22,7 @@ interface RouteInterface
      * Determine if secure protocol required and in use
      *
      * @return  object
-     * @since   1.0
+     * @since   1.0.0
      */
     public function verifySecureProtocol();
 
@@ -30,7 +30,7 @@ interface RouteInterface
      * Determine if request is for home page
      *
      * @return  object
-     * @since   1.0
+     * @since   1.0.0
      */
     public function verifyHome();
 
@@ -38,7 +38,7 @@ interface RouteInterface
      * Set Action from HTTP Method
      *
      * @return  object
-     * @since   1.0
+     * @since   1.0.0
      */
     public function setRequest();
 
@@ -46,7 +46,7 @@ interface RouteInterface
      * Set Route
      *
      * @return  object
-     * @since   1.0
+     * @since   1.0.0
      */
     public function setRoute();
 }
